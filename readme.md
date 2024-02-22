@@ -1,20 +1,20 @@
-# О проекте
+# About project
 
-Здесь собрана коллекция самописных скриптов на javascript, python, bash и т.д. для работы реверсера. 
+Here is a collection of self-written scripts in javascript, python, bash, etc. for reverser operation 
 
 ## Frida
 ### Android
 
-1. [Get all classes](/android/get_all_classes) - Метод, который получает все классы в андроид приложении. Полезно использовать в связке с 
-frida-trace при указании флага -j 'class_name!*'
+1. [Get all classes](/android/get_all_classes) - A method that gets all classes in an android application. Useful to use in conjunction with
+   frida-trace when specifying the -j 'class_name!*' flag
 
 ### Windows
 
-1. [List all modules](windows/list_all_modules) - скрипт, который получает список всех модулей в приложении (DLL, exe)
-2. [Start windows script](windows/start_windows_script) - скрипт, который запускает модуль на frida под windows
+1. [List all modules](windows/list_all_modules) - a script that gets a list of all modules in the application (DLL, exe)
+2. [Start windows script](windows/start_windows_script) - a script that runs the frida module under windows
 
 # Сборка
 ## Android
 
-1. [Build smali script](android/build_script) - скрипт после декомпиляции андроид приложения, которое можно подключить в
-android studio для быстрой сборки проекта
+1. [Build smali script](android/build_script) - script after decompiling an Android application, which can be connected to Android Studio
+for quick project assembly
